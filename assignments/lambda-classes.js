@@ -55,6 +55,7 @@ class Person {
             this.previousBackground = stObject.previousBackground;
             this.className = stObject.className;
             this.favSubjects = stObject.favSubjects;
+            this.grade = stObject.grade;
         }
         listSubjects() {
             this.favSubjects.forEach(function(item) {
@@ -76,7 +77,8 @@ class Person {
         location: 'CA',
         previousBackground: 'Whisky extraordinaire',
         className: 'PT11',
-        favSubjects: ['Web Fundamentals', 'Javascript', 'HTML', 'CSS']
+        favSubjects: ['Web Fundamentals', 'Javascript', 'HTML', 'CSS'],
+        grade: 3
       });
       
     console.log(Pete.name);
@@ -87,6 +89,7 @@ class Person {
     console.log(Pete.className);
     console.log(Pete.listSubjects());
     console.log(Pete.PRAssignment('LESS'));
+    console.log(Pete.grade);
 
 
     class TeamLeader extends Instructor {
