@@ -58,7 +58,7 @@ class Person {
             this.grade = stObject.grade;
         }
         listSubjects() {
-            this.favSubjects.forEach(function(item) {
+             this.favSubjects.forEach(function(item) {
              console.log(item);
             });
         }
@@ -87,7 +87,7 @@ class Person {
     console.log(Pete.speak());
     console.log(Pete.previousBackground);
     console.log(Pete.className);
-    console.log(Pete.listSubjects());
+    Pete.listSubjects();
     console.log(Pete.PRAssignment('LESS'));
     console.log(Pete.grade);
 
